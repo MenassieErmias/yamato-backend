@@ -10,5 +10,11 @@
     "backend"
   ],
   "author": "Menassie Ermias",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
