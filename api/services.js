@@ -11,3 +11,5 @@ servicesRouter.post('/', createService);
 servicesRouter.put('/:id', editService);
 
 servicesRouter.delete('/:id', deleteService);
+
+export default servicesRouter;
