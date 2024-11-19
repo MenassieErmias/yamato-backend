@@ -33,5 +33,13 @@ const editService = (req, res) => {
 
 }
 
+const deleteService = (req, res) => {
+  const id = req.params.id;
 
-export default { createService, editService }
+  const updatedServices = services.filter(service => service.id !== id);
+
+  services = [...updatedServices];
+}
+
+
+export default { getAllServices, createService, editService, deleteService }
